@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scroll</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header id="home">
+      <!-- navbar -->
+      <nav id="nav">
+        <div class="nav-center">
+          <!-- nav header -->
+          <div class="nav-header">
+            
+            <button class="nav-toggle">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+          <!-- links -->
+          <div class="links-container">
+            <ul class="links">
+              <li>
+                <a href="index.html">home</a>
+              </li>
+              
+              <li>
+                <a href="#about" class="scroll-link">Current</a>
+              </li>
+              <li>
+                <a href="#services" class="scroll-link">Enacted</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- banner -->
+      <div class="banner">
+        <div class="container">
+          <h1>Works</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis repellendus molestiae quia nesciunt optio hic officiis sed, ipsam similique in. Vel numquam aliquam ullam odit deleniti error, iusto excepturi tempora.
+          </p>
+          <!-- <a href="#tours" class="scroll-link btn btn-white">explore works</a> -->
+        </div>
+      </div>
+    </header>
+    <!-- about -->
+    <section id="about" class="section">
+      <div class="title" style="margin: 1rem;">
+        <h2>Curr<span>ent</span></h2>
+        <ul id="works">
+        <li style="font-size: large;"><h4>J.Hunter's Book</h4></li>
+        <p>“Soy poderoso. Mi corazón es fuerte. Estoy listo para la acción
+            ... Iban a dar las 8.00 am y la cafetera estaba prendida."
+            </p>
+            </ul>
+            <!-- <p>Read the first chapter</p>
+        <p>Buy from Amazon</p>
+        <li><a href="#zine">Cut-up group zine</a></li>
+        <p>Read the html version</p>
+        <p>Download the Epub</p>
+    </ul> -->
+    <ul class="works">
+      <li><p>Listen to the <a href="https://www.youtube.com/watch?v=ce5WItsf4L8" target="blank"><span>_first chapter</span> </a> or Buy from <a href="https://www.amazon.com/Libertadista-Spanish-James-Edward-Hunter/dp/B0991FG9FX/ref=sr_1_1?keywords=james+hunter+libertadista&qid=1637356013&s=books&sr=1-1" target="blank"><span>_Amazon</span> </a></p></li>
+    </ul>
+    <ul class="works">
+      <li style="font-size: large;"><h4>Cut-up Group Zine</h4></li>
+      <li><p>Read the <a href="cutup.html" target="blank"><span>_html version</span> </a>_or_ <a href="#"><span>download the epub</span> </a></p></li>
+    </ul>
+      </div>
+    </section>
+
+    
+    <!-- services -->
+    <section id="services" class="section">
+      <div class="title">
+        <h2>En<span>acted</span></h2>
+        <article>
+          
+          <div id="quote"></div>
+            <div class="box">
+           <span></span>
+             <ul id="works">
+                <li><a href="manifesto.html" target="blank">Manifesto</a></li>
+                <li><a href="or.html" target="blank">Operational Reports</a></li> 
+             </ul> 
+              
+              
+          </div>
+        </article>
+      </div>
+    </section>
+    <!-- contact -->
+    
+    <!-- footer -->
+    <footer class="section">
+      <p>
+        no copyright &copy; freist productions
+        <span id="date"></span>. no rights reserved
+      </p>
+    </footer>
+    <a class="scroll-link top-link" href="#home">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
